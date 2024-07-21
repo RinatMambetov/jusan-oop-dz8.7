@@ -1,7 +1,5 @@
 package ru.rinat;
 
-import java.util.Arrays;
-
 public class Department {
     private final String name;
     private final Employee[] employees;
@@ -55,10 +53,11 @@ public class Department {
 
     @Override
     public String toString() {
-        return "Department{" +
+        return "Department {" +
                 "name='" + name + '\'' +
-                ", employees=" + Arrays.toString(employees) +
-                ", lastAddedEmployeeIndex=" + lastAddedEmployeeIndex +
+                ", employeesCount=" + getEmployeeCount() +
+                ", totalSalary=" + getTotalSalary() +
+                ", averageSalary=" + String.format("%.2f", getAverageSalary()) +
                 '}';
     }
 }
