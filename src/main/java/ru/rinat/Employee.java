@@ -5,6 +5,12 @@ public class Employee {
     private String name;
     private double salary;
 
+    Employee() {
+        this.ID = 0;
+        this.name = "";
+        this.salary = 0;
+    }
+
     Employee(int ID, String name, double salary) {
         this.ID = ID;
         this.name = name;
@@ -37,10 +43,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "ID=" + ID +
-                ", name='" + name + '\'' +
-                ", salary=" + salary +
-                '}';
+        return getName() + " with a salary of " + getSalary() + " tenge";
     }
 }

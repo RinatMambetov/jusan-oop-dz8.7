@@ -4,6 +4,8 @@ Congratulations, you completed all topics we prepared for you! Now, it is time t
 ## Description
 HR department of Jusan bank assigned a task for you - implement a small HR application to track employees based on UML diagram below. You need to implement two classes - Employee class and Department class.
 
+![UML diagram](https://ucarecdn.com/2486b8fc-fc46-4b61-ad73-b4d9eb2dad3c/)
+
 Then, add following employees to the program in the Main class and then print information about them and their salary on console.
 
 ```
