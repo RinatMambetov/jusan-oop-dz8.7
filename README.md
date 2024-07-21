@@ -6,8 +6,10 @@ HR department of Jusan bank assigned a task for you - implement a small HR appli
 
 Then, add following employees to the program in the Main class and then print information about them and their salary on console.
 
+```
 Sanzhar with a salary of 500_000 tenge
 Aidana with a salary of 1_000_000 tenge
 Bekzhan with a salary of 2_200_000 tenge
+```
 
 Good luck!
