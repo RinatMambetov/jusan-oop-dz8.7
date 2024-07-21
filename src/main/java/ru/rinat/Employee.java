@@ -43,6 +43,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return getName() + " with a salary of " + getSalary() + " tenge";
+        return getName() + " with a salary of " + Utils.formatNumber(getSalary()) + " tenge";
     }
 }
